@@ -7,11 +7,10 @@ nome = "Miguel Vinícius";
 
 console.log(nome);
 
-const idade = 10;
+const idade = 10;// não muda
 
 console.log(idade);
 
-// idade = 10;
 
 console.log(typeof nome);
 
@@ -48,9 +47,9 @@ console.log(_teste, $teste);
 
 // 4 - alert
 
-// alert("Testando");
+ //alert("Testando");
 
-// const z = 10;
+ //const z = 10;
 
 // alert(`O número é ${z}`);
 
