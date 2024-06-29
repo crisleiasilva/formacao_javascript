@@ -114,30 +114,30 @@ if (1 > 2) {
   console.log("Agora sim!");
 }
 
-const userName = "Matheus";
-const userAge = 31;
+const userName = "Crislei";
+const userAge = 41;
 
 if (userName === "José") {
   console.log("Bem vindo José!");
-} else if (userName === "Matheus" && userAge === 31) {
-  console.log("Olá Matheus, você tem 31 anos!");
+} else if (userName === "Crislei" && userAge === 41) {
+  console.log("Olá Crislei, você tem 41 anos!");
 } else {
   console.log("Nenhuma condição aceita!");
 }
 
 // 10 while
-let p = 0;
+let p = 0; //incrementador
 
 while (p < 5) {
   console.log(`Repetindo ${p}`);
-  p++;
+  p++;// incremenador também poderia ser p = p+1
 }
 
 // loop infinito
-// let x = 10;
-// while (x > 5) {
-//   console.log(`Imprimindo ${x}`);
-// }
+ //let x = 10;
+ //while (x > 5) {
+ // console.log(`Imprimindo ${x}`);
+ //}
 
 // 11 - do while
 let o = 10;
