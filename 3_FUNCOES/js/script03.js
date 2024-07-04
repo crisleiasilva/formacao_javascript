@@ -126,9 +126,9 @@ const customGreeting = (name, greet = "Olá") => {
   return `${greet}, ${name}!`;
 };
 
-console.log(customGreeting("Matheus"));
+console.log(customGreeting("Miguel"));
 
-console.log(customGreeting("João", "Bom dia"));
+console.log(customGreeting("Crislei", "Bom dia"));
 
 const repeatText = (text, repeat = 2) => {
   for (let i = 0; i < repeat; i++) {
